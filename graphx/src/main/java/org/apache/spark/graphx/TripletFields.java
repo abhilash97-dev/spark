@@ -34,6 +34,9 @@ public class TripletFields implements Serializable {
   /** Indicates whether the edge attribute is included. */
   public final boolean useEdge;
 
+  /** Example constant to test unit test case generation pipeline. */
+  private static final String EXAMPLE_CONSTANT = "TestConstant"; // Added constant for testing
+
   /** Constructs a default TripletFields in which all fields are included. */
   public TripletFields() {
     this(true, true, true);
